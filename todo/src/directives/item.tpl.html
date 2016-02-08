@@ -1,0 +1,8 @@
+
+<div [ngClass]="item.status">
+    <span [contentEditable]="item.editable">{{ item.name }}</span>
+    
+    <!--<button type="button" (click)="item.toogle()">toggle</button>-->
+    <button type="button" (click)="item.toggleEdit()">edit</button>
+    <button type="button" (click)="toggle.emit(item)">toggle</button>
+</div>

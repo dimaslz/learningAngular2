@@ -1,0 +1,8 @@
+@font-face {
+    font-family: AlegreyaSans;
+    src: url("assets/fonts/alegreya-sans/AlegreyaSans-Regular.otf") format("opentype");
+}
+body {
+    background: yellow;
+    font-family: AlegreyaSans;
+}

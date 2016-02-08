@@ -1,0 +1,8 @@
+<ul class="list">
+    <li *ngFor="#todo of tasks | type:status">
+        <todo-item 
+            [item]="todo"
+            (toggle)="todoService.toggleTodo($event)"
+            ></todo-item>
+    </li>
+</ul>
